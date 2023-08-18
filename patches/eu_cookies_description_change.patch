@@ -1,11 +1,11 @@
-Index: app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
+Index: web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
 IDEA additional info:
 Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
-diff --git a/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml b/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
---- a/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
-+++ b/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
+diff --git a/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml b/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
+--- a/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
++++ b/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
 @@ -1,6 +1,6 @@
  name: 'EU Cookie Compliance'
  type: module
