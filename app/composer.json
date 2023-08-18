@@ -14,17 +14,26 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "git",
-            "url": "https://github.com/martinambrus/custom-field-types-widgets-and-formatters"
+            "type": "package",
+            "package": {
+                "name": "martinambrus/custom-field-types-widgets-and-formatters",
+                "version": "dev-master",
+                "type":"drupal-module",
+                "source": {
+                    "url": "https://github.com/martinambrus/custom-field-types-widgets-and-formatters",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
-        "composer/installers": "^1.9",
+        "composer/installers": "^2.2",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/eu_cookie_compliance": "1.24",
-        "martinambrus/custom-field-types-widgets-and-formatters": "1.0a"
+        "martinambrus/custom-field-types-widgets-and-formatters": "master-dev"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -53,7 +62,7 @@
             "web/libraries/{$name}": [
                 "type:drupal-library"
             ],
-            "web/modules/contrib/{$name}": [
+            "web/modules/{$name}": [
                 "type:drupal-module"
             ],
             "web/profiles/contrib/{$name}": [
