@@ -1,3 +1,4 @@
 vendor
 web/modules
 composer.lock
+web/sites/default/files
