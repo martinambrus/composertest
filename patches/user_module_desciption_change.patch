@@ -1,0 +1,18 @@
+Subject: [PATCH] description patch example
+---
+Index: web/core/modules/user/user.info.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/web/core/modules/user/user.info.yml b/web/core/modules/user/user.info.yml
+--- a/web/core/modules/user/user.info.yml	(revision 45912df069d3222577b160bf2a9b1cd72527135f)
++++ b/web/core/modules/user/user.info.yml	(date 1692360495013)
+@@ -1,6 +1,6 @@
+ name: User
+ type: module
+-description: 'Manages the user registration and login system.'
++description: 'Manages the user registration and login system. This description has been patched.'
+ package: Core
+ version: VERSION
+ required: true
