@@ -95,7 +95,7 @@ $databases = array (
         array (
           'database' => 'composer_tests',
           'username' => 'postgres',
-          'password' => 'toor',
+          'password' => 'some_password',
           'host' => 'localhost',
           'port' => '',
           'driver' => 'pgsql',
