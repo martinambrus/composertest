@@ -1,0 +1,16 @@
+Index: app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml b/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
+--- a/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
++++ b/app/web/modules/eu_cookie_compliance/eu_cookie_compliance.info.yml
+@@ -1,6 +1,6 @@
+ name: 'EU Cookie Compliance'
+ type: module
+-description: 'This module aims at making the website compliant with the new EU cookie regulation'
++description: 'This module aims at making the website compliant with the new EU cookie regulation. This is a patched title.'
+ package: User interface
+ core_version_requirement: ^8.9 || ^9 || ^10
+ configure: eu_cookie_compliance.settings
