@@ -53,11 +53,8 @@
     },
     "extra": {
         "patches": {
-            "drupal/core-composer-scaffold": {
-                "change db password patch example": "https://raw.githubusercontent.com/martinambrus/composertest/with_patching/patches/db_password_change.patch"
-            },
-            "drupal/core-composer-scaffold": {
-                "change user module description patch example": "https://raw.githubusercontent.com/martinambrus/composertest/with_patching/patches/user_module_desciption_change.patch"
+            "martinambrus/custom-field-types-widgets-and-formatters" : {
+                "test patch": "./patches/custom_module_title_test_patch.patch"
             }
         },
         "drupal-scaffold": {
