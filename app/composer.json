@@ -55,6 +55,12 @@
         "patches": {
             "martinambrus/custom-field-types-widgets-and-formatters" : {
                 "test patch": "./patches/custom_module_title_test_patch.patch"
+            },
+            "drupal/eu_cookie_compliance" : {
+                "contrib module patch": "../patches/eu_cookies_description_change.patch"
+            },
+            "drupal/core" : {
+                "user module patch": "../patches/user_module_description_change.patch"
             }
         },
         "drupal-scaffold": {
