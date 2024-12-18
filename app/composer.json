@@ -17,12 +17,12 @@
             "type": "package",
             "package": {
                 "name": "martinambrus/custom-field-types-widgets-and-formatters",
-                "version": "dev-master",
+                "version": "dev-specific",
                 "type":"drupal-module",
                 "source": {
                     "url": "https://github.com/martinambrus/custom-field-types-widgets-and-formatters",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "specific"
                 }
             }
         }
@@ -34,7 +34,7 @@
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/eu_cookie_compliance": "1.24",
-        "martinambrus/custom-field-types-widgets-and-formatters": "master-dev"
+        "martinambrus/custom-field-types-widgets-and-formatters": "dev-specific"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -54,13 +54,13 @@
     "extra": {
         "patches": {
             "martinambrus/custom-field-types-widgets-and-formatters" : {
-                "test patch": "./patches/custom_module_title_test_patch.patch"
+                "custom repo module patch from local app folder": "./patches/custom_module_title_test_patch.patch"
             },
             "drupal/eu_cookie_compliance" : {
                 "contrib module patch": "../patches/eu_cookies_description_change.patch"
             },
             "drupal/core" : {
-                "user module patch": "../patches/user_module_description_change.patch"
+                "core module patch": "../patches/user_module_description_change.patch"
             }
         },
         "drupal-scaffold": {
